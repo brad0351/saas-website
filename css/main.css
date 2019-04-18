@@ -7,7 +7,7 @@ html {
 
 .masthead {
   background-color: #000;
-  border-bottom: .3rem solid #bea59b;
+  border-bottom: .3rem solid #C39BD3  ;
   color: #fff;
 }
 
@@ -36,7 +36,7 @@ html {
 }
 
 .nav a span {
-  border-bottom: .3rem solid #bea59b;
+  border-bottom: .3rem solid #C39BD3  ;
 }
 
 .nav a:hover span,
@@ -60,13 +60,13 @@ h2 {
 
 .card {
   min-height: 22em;
-  border: .3rem solid #bea59b;
+  border: .3rem solid #C39BD3  ;
   border-radius: 4px;
 }
 
 .btn-light {
-  background-color: #bea59b;
-  border-color: #bea59b;
+  background-color: #C39BD3  ;
+  border-color: #C39BD3  ;
   color: #522806;
 }
 
@@ -77,21 +77,21 @@ h2 {
 }
 
 .btn-banner {
-  border-color: #bea59b;
+  border-color: #C39BD3  ;
   color: #fff;
   background-color: #22b573;
 }
 
 .btn-banner:hover,
 .btn-banner:focus {
-  background-color: #bea59b;
+  background-color: #C39BD3  ;
   border-color: #fff;
   color: #522806;
 }
 
 .footer {
   background-color: #000;
-  border-top: .3rem solid #bea59b;
+  border-top: .3rem solid #C39BD3  ;
   color: #fff;
 }
 
