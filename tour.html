@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Tour Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -39,10 +40,13 @@
 
   <main role="main" id="main" tabindex="0">
 
+
     <div class="island">
       <div>
-        <h2>Tour Around<h2>
-          <p>This is what we have to offer</P>
+        <div>
+        <h2>Tour Around</h2>
+        </div>
+          <p>This is what we have to offer</p>
 
           </div>
           <ol class="grid grid-stretch gutter-1-4 pad-b-1-2">
@@ -50,7 +54,7 @@
               <div class="card island-1-2 content-fill unit-content-distribute">
                 <img class="img-flex push-1-2" src="images/tickets.jpg" alt>
                 <h2 class="push-1-2 giga">Tickets</h2>
-                <p class="push-1-2 content-fill">Easily sell tickets for events.</P>
+                <p class="push-1-2 content-fill">Easily sell tickets for events.</p>
                   <p>Manage registration for venues of all sizes.</p>
                   <p>Find tickets for venues online.</p>
                   <a class="btn btn-banner bold" href="#">Order Now</a>
@@ -87,8 +91,55 @@
                 </div>
               </li>
             </ol>
+          </div>
+
+          <section>
+            <div class="wrapper">
+              <h2>Prices</h2>
+
+              <div class="table-wrapper scrollable">
+                <table class="islan-1-2 embed-16by9">
+                  <caption class="mega">Price Ranges</caption>
+                  <thead>
+                    <tr>
+                      <th class="name" scope="col">Options</th>
+                      <th class="star" scope="col">Price Per Ticket</th>
+                      <th class="year" scope="col">Price For Bulk Order</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <th class="not-bold italic" scope="row">Non Member</th>
+                      <td>Minimum Ticket Price of $2.00</td>
+                      <td><a class="btn btn-banner bold" href="pricing.html">Learn More</a></td>
+                    </tr>
+
+                    <tr>
+                      <th class="not-bold italic" scope="row">Freebie</th>
+                      <td>Free for free tickets, 10% for paid tickets</td>
+                      <td><a class="btn btn-banner bold" href="pricing.html">Learn More</a></td>
+                    </tr>
+
+                    <tr>
+                      <th class="not-bold italic" scope="row">Pro</th>
+                      <td>Free for free tickets, 5% for paid tickets</td>
+                      <td><a class="btn btn-banner bold" href="pricing.html">Learn More</a></td>
+                    </tr>
+
+                    <tr>
+                      <th class="not-bold italic" scope="row">Super</th>
+                      <td>2% fee for 100+ tickets</td>
+                      <td><a class="btn btn-banner bold" href="pricing.html">Learn More</a></td>
+                    </tr>
+                  </tbody>
+
+                </table>
+              </div>
+            </div>
           </section>
-        </main>
+
+      </main>
 
         <footer role="contentinfo" class="footer micro text-center island-1-2">
           <p class="push-0">© Ticket Maker</p>
