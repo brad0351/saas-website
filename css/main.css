@@ -8,7 +8,6 @@ html {
 .masthead {
   background-color: #000;
   border-bottom: .3rem solid #c39bd3;
-  color: #fff;
 }
 
 .logo {
@@ -34,7 +33,6 @@ html {
   color: #fff;
   text-decoration: none;
   font-family: Limelight;
-  border-bottom: #393;
 }
 
 .nav a span {
@@ -42,15 +40,15 @@ html {
 }
 
 .nav a:hover span {
-background-color: #393;
-color: #000;
-border-bottom-color: #fff;
+  background-color: #fff;
+  color: #000;
+  border-bottom-color: #21b473;
 }
 
 .nav a:focus span {
-  background-color: #393;
+  background-color: #fff;
   color: #000;
-  border-bottom-color: #fff;
+  border-bottom-color: #21b473;
 }
 
 .banner {
@@ -93,7 +91,7 @@ main {
 
 .btn-banner:hover,
 .btn-banner:focus {
-  background-color: #393;
+  background-color: #fff;
   border-color: #fff;
   color: #000;
 }
@@ -126,8 +124,8 @@ main {
   select:focus {
     outline: 0;
     outline-offset: 0;
-    box-shadow: 0 0 10px #393;
-    background-color: #393;
+    box-shadow: 0 0 10px #fff;
+    background-color: #fff;
   }
 
   table {
