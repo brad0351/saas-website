@@ -1,8 +1,8 @@
 html {
   background-color: #fff;
   font-family: "Racing Sans One", cursive;
-  font-family: "Limelight", cursive;
-  font-family: "Roboto", sans-serif;
+  font-family: Limelight, cursive;
+  font-family: Roboto, sans-serif;
 }
 
 .masthead {
@@ -42,20 +42,21 @@ html {
 .nav a:hover span,
 .nav a:focus span {
   border-bottom-color: #fff;
+  background-color: #c39bd3;
 }
 
 .banner {
   min-height: 16em;
   color: #fff;
-}
-
-.banner {
-  font-family: "Limelight", cursive;
-  color: #fff;
+  font-family: Limelight, cursive;
 }
 
 h2 {
-  font-family: "Limelight", cursive;
+  font-family: Limelight, cursive;
+}
+
+main {
+  background-color: #e4e1dc;
 }
 
 .card {
@@ -77,16 +78,16 @@ h2 {
 }
 
 .btn-banner {
-  border-color: #c39bd3;
+  border-color: #000;
   color: #fff;
-  background-color: #22b573;
+  background-color: #000;
 }
 
 .btn-banner:hover,
 .btn-banner:focus {
-  background-color: #c39bd3;
+  background-color: #393;
   border-color: #fff;
-  color: #522806;
+  color: #000;
 }
 
 .footer {
@@ -114,13 +115,11 @@ h2 {
   [tabindex="0"]:focus,
   details:focus,
   summary:focus,
-  input:focus,
-  textarea:focus,
-  button:focus,
   select:focus {
     outline: 0;
     outline-offset: 0;
     box-shadow: 0 0 10px #393;
+    background-color: #c39bd3;
   }
 
   table {
