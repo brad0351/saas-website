@@ -39,108 +39,108 @@
           <li class="ib"><a class="ib gutter-1-4" href="#"><span>Events</span></a></li>
           <li class="ib"><a class="ib gutter-1-4" href="sign-up.html"><span>Sign Up</span></a></li>
         -->
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<main role="main" id="main" tabindex="0">
-
-  <div class="banner embed embed-16by9">
-    <img class="embed-item" src="images/saas-jump.jpg" alt="person jumping" aria-details="fireworks">
-    <div class="banner-content pin-c w-1 max-length gutter text-center">
-      <p class="push-1-2 tena">Sign Up!</p>
+        </ul>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <section tabindex="0" class="gutter-1-2 max-length card">
-    <div class="white island-1 max-length">
-      <h2 class="pad-t-2 normal">Sign-up for Ticket Maker</h2>
-      <p class="mega">Here to help you add some SAAS to event planning.</p>
+  <main role="main" id="main" tabindex="0">
+
+    <div class="banner embed embed-16by9">
+      <img class="embed-item" src="images/saas-jump.jpg" alt="person jumping" aria-details="fireworks">
+      <div class="banner-content pin-c w-1 max-length gutter text-center">
+        <p class="push-1-2 tena">Sign Up!</p>
+      </div>
     </div>
 
-    <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
-      <fieldset class="push-0">
-        <legend class="not-bold italic mega push-1-2">Please Provide Your Info</legend>
+    <section tabindex="0" class="gutter-1-2 max-length card">
+      <div class="white island-1 max-length">
+        <h2 class="pad-t-2 normal">Sign-up for Ticket Maker</h2>
+        <p class="mega">Here to help you add some SAAS to event planning.</p>
+      </div>
 
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1-2 island-1-2">
-            <label for="name">Name</label>
-            <input id="name" name="name" required>
+      <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+        <fieldset class="push-0">
+          <legend class="not-bold italic mega push-1-2">Please Provide Your Info</legend>
+
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1-2 island-1-2">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+            </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
+              <label for="age">Age</label>
+              <input id="age" name="age">
+            </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="" name="email" required>
+            </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
+              <label for="fitness">Sign-up Options</label>
+              <input type="hidden" name="_subject" value="Request to join the mission">
+              <select id="fitness" name="_fitness">
+                <option>Non-member</option>
+                <option>Freebie</option>
+                <option>Pro</option>
+                <option>Super</option>
+              </select>
+            </div>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
-            <label for="age">Age</label>
-            <input id="age" name="age">
+          <div>
+            <label for="address">Address</label>
+            <textarea id="address" name="address" required></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset class="push-0">
+          <legend class="not-bold italic mega push-1-2 island-1-2">Credit Card Info</legend>
+
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1-2 island-1-2">
+              <label for="card-name">Name On Card</label>
+              <input id="card-name" name="name" required>
+            </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
+              <label for="card-number">Credit Car Number</label>
+              <input id="card-number" name="number">
+            </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
+              <label for="cvv">CVV</label>
+              <input id="cvv" type="number" placeholder="" name="number" required>
+            </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
+              <label for="credit-card">Card Type</label>
+              <input type="hidden" name="_subject" value="Payment info">
+              <select id="credit-card" name="credit-card">
+                <option>VISA</option>
+                <option>Master Card</option>
+                <option>AMEX</option>
+                <option>No Name</option>
+              </select>
+            </div>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="" name="email" required>
+          <div class="text-center island-1-2">
+            <button class="btn btn-banner bold island-1-2" type="submit">Register</button>
           </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
 
-          <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
-            <label for="fitness">Sign-up Options</label>
-            <input type="hidden" name="_subject" value="Request to join the mission">
-            <select id="fitness" name="_fitness">
-              <option>Non-member</option>
-              <option>Freebie</option>
-              <option>Pro</option>
-              <option>Super</option>
-            </select>
-          </div>
-        </div>
-
-        <div>
-          <label for="address">Address</label>
-          <textarea id="address" name="address" required></textarea>
-        </div>
-      </fieldset>
-
-      <fieldset class="push-0">
-        <legend class="not-bold italic mega push-1-2 island-1-2">Credit Card Info</legend>
-
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1-2 island-1-2">
-            <label for="card-name">Name On Card</label>
-            <input id="card-name" name="name" required>
-          </div>
-
-          <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
-            <label for="card-number">Credit Car Number</label>
-            <input id="card-number" name="number">
-          </div>
-
-          <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
-            <label for="cvv">CVV</label>
-            <input id="cvv" type="number" placeholder="" name="number" required>
-          </div>
-
-          <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
-            <label for="credit-card">Card Type</label>
-            <input type="hidden" name="_subject" value="Payment info">
-            <select id="credit-card" name="credit-card">
-              <option>VISA</option>
-              <option>Master Card</option>
-              <option>AMEX</option>
-              <option>No Name</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="text-center island-1-2">
-          <button class="btn btn-banner bold island-1-2" type="submit">Register</button>
-        </div>
-      </fieldset>
-    </form>
-  </section>
-</main>
-
-<footer role="contentinfo" class="footer micro text-center island-1-2">
-  <p class="push-0"> This is not a real website. Do not give credit card info.</p>
-  <p class="push-0">School project!</p>
-  <p class="push-0">© Ticket Maker</p>
-</footer>
+  <footer role="contentinfo" class="footer micro text-center island-1-2">
+    <p class="push-0"> This is not a real website. Do not give credit card info.</p>
+    <p class="push-0">School project!</p>
+    <p class="push-0">© Ticket Maker</p>
+  </footer>
 
 </body>
 </html>
