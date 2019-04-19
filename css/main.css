@@ -33,16 +33,24 @@ html {
 .nav a {
   color: #fff;
   text-decoration: none;
+  font-family: Limelight;
+  border-bottom: #393;
 }
 
 .nav a span {
   border-bottom: .3rem solid #c39bd3;
 }
 
-.nav a:hover span,
+.nav a:hover span {
+background-color: #393;
+color: #000;
+border-bottom-color: #fff;
+}
+
 .nav a:focus span {
+  background-color: #393;
+  color: #000;
   border-bottom-color: #fff;
-  background-color: #c39bd3;
 }
 
 .banner {
@@ -119,7 +127,7 @@ main {
     outline: 0;
     outline-offset: 0;
     box-shadow: 0 0 10px #393;
-    background-color: #c39bd3;
+    background-color: #393;
   }
 
   table {
